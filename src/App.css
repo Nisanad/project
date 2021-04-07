@@ -1,5 +1,7 @@
 .App {
+
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +37,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Box {
+  background-color: #ffffff;
+  width: 400px;
+  border: 1px solid black;
+  padding: 100px;
+  margin: 200px;
+ 
+}
+.button{
+  background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
+  width: 100px;
+  height: 30px;
+  border-radius:10px;
+  font-size: calc(5px + 1.5vmin);
+  float: left;
+  border: 1px solid rgb(249, 250, 249)
+ }
+.holder{
+  width: 10cm;
+  height: 30px;
+
+}
+.pleaseinputtext{
+  font-size: calc(5px + 1.3vmin);
+  font-weight: bold;
+}
+.button:hover {
+  background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+  color: white;
+}
+.AppBG{
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  float: right;
 }
