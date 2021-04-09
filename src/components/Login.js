@@ -40,8 +40,8 @@ const handleLogin = async () => {
 
 
     return(
-    <div className=".gallery" >
-        <view><img src={psu.gif} alt="psu" width="500" height="500"></img></view>
+    <div  >
+        
        
         <center>
         <div className="Box" > 
