@@ -1,11 +1,8 @@
 import React,{ useState } from 'react';
 import auth from '../firebase';
 import '../App.css';
-import psu from './psu.gif';
-
 
 const Login = ({setSession}) =>{
-
 
 const [Username,setUsername] = useState(''); //studentID
 const [password,setPassword]  = useState(''); //password
@@ -45,7 +42,8 @@ const handleLogin = async () => {
        
         <center>
         <div className="Box" > 
-            <header class="pleaseinputtext" >Please input your passport account name and your Password /กรุณากรอกบัญชี PSU Passport และรหัสผ่าน</header><br></br>
+            <header class="pleaseinputtext" >Please input your passport account name and your Password 
+            /กรุณากรอกบัญชี PSU Passport และรหัสผ่าน</header><br></br>
        
             <input type="Email" placeholder = "PSU Passport Account Name" class="holder"  onChange={handleUsername}/> 
            <p></p>
@@ -54,6 +52,7 @@ const handleLogin = async () => {
             <button type = "button" class="button:hover" class="button" onClick={handleLogin} >Login </button>
         </div>
         </center>
+    
         </div>
     )
 }
